@@ -1,5 +1,7 @@
 import "./Button.scss";
 
-const Button = () => {};
+const Button = ({ title, btnFunction }) => {
+  return <button onClick={btnFunction}>{title}</button>;
+};
 
 export default Button;

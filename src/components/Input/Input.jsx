@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Input.scss";
+import Button from "../Button/Button";
 
 const Input = ({ setUserInput }) => {
   const [todo, setTodo] = useState("");
@@ -17,7 +18,7 @@ const Input = ({ setUserInput }) => {
     <>
       <label htmlFor="User-Input"></label>
       <input onInput={handleInput} type="text" />
-      <button onClick={addInput}> + </button>
+      <Button title="+" btnFunction={addInput} />
     </>
   );
 };
