@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./List.scss";
 
 const List = ({ userInput }) => {
-  let inputClassName = "input";
+  let inputClassName = "input-text";
   const [cross, setCross] = useState(false);
 
   const handleCross = () => {
