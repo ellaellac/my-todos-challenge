@@ -6,7 +6,7 @@ import List from "./components/List/List";
 
 const App = () => {
   const [userInput, setUserInput] = useState();
-
+  console.log({ userInput });
   return (
     <div className="App">
       <h1>My Todos</h1>

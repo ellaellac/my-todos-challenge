@@ -17,7 +17,7 @@ const Input = ({ setUserInput }) => {
   return (
     <>
       <label htmlFor="User-Input"></label>
-      <input onInput={handleInput} type="text" />
+      <input className="input" onInput={handleInput} type="text" />
       <Button title="+" btnFunction={addInput} />
     </>
   );
