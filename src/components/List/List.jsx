@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ClickBox from "../ClickBox/ClickBox";
 import "./List.scss";
 
 const List = ({ userInput }) => {
