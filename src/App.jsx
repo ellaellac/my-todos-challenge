@@ -17,7 +17,7 @@ const App = () => {
   //added task btn
   const handleClick = () => {
     if (toDo) {
-      setToDoList([...toDoList, { id: uuidv4(), task: toDo }]);
+      setToDoList((prevList) => [...prevList, { id: uuidv4(), task: toDo }]);
     }
   };
 
