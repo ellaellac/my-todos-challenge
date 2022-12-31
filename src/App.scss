@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 10px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  margin: 5px 0;
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid black;
+  border-right: none;
+  &:hover {
+    border: 2px solid blue;
+  }
+}

@@ -1,4 +1,21 @@
-.button {
-  margin: 5px;
-  padding: 3px 5px;
+.reset-btn,
+.task-btn {
+  margin: 5px 0 5px 0;
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+
+.reset-btn {
+  border-radius: 10px;
+}
+.task-btn {
+  width: 10%;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.delete-btn {
+  padding: 0 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
